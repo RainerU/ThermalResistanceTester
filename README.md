@@ -1,5 +1,5 @@
 # ThermalResistanceTester
-Measure Thermal Resistance of Heat Sinks
+Measure Thermal Resistance of Heatsinks
 
 # Hardware
 https://easyeda.com/BitsAndElectrons/Thermal-Resistance-Meter
