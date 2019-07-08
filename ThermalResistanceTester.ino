@@ -25,8 +25,9 @@
 #define displayDIN 5
 #define displayDC  4
 #define displayCLK 6
+#define displayRST 7
 // display constructor, PCD8544 84X48, full framebuffer, size = 528 bytes
-U8G2_PCD8544_84X48_F_4W_SW_SPI display(U8G2_R0, displayCLK, displayDIN, displayCE, displayDC);
+U8G2_PCD8544_84X48_F_4W_SW_SPI display(U8G2_R0, displayCLK, displayDIN, displayCE, displayDC, displayRST);
 // display lines
 #define line1 7
 #define line2 15
