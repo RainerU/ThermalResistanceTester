@@ -2,7 +2,8 @@
 // (c) Rainer Urlacher 2019
 //
 // for more details and usage see videos in my Youtube video channels:
-// Elekrobits         (German)  https://youtu.be/yBIe8qAUBh4
+// Bits and Electrons (English): https://youtu.be/XrAypYThXBM
+// Elektrobits (German):         https://youtu.be/yBIe8qAUBh4
 //
 // hard- and software published under the MIT License
 // - on github:      https://github.com/RainerU/ThermalResistanceTester
@@ -82,7 +83,7 @@ float ambientTemp = 22; // ambient temperature
 float currentTemp; // last measured T
 float targetTemp = 50; // user selected T for measurement
 // NTC parameters
-#define sensorRHigh 10000.0 // high side resistor connected to NTC
+#define sensorRHigh 15000.0 // high side resistor connected to NTC
 #define sensorAmp 2 // amplification factor
 #define sensorB 3988.0 // B factor of NTC B57703M0103G040
 #define sensorR25 10000.0 // R at 25dgrC of NTC 
