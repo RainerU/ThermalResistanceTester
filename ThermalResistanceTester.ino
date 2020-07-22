@@ -22,7 +22,7 @@
 // there go to the wiki
 #include <U8g2lib.h>
 // Nokia 5110 display
-#define displayCE  4
+#define displayCE  3
 #define displayDIN 5
 #define displayDC  4
 #define displayCLK 6
